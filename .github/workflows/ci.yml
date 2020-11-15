@@ -17,11 +17,11 @@ jobs:
         uses: yarn install
 
       - name: Linting
-        uses: yarn lint
+        run: yarn lint
       
       - name: Test
-        uses: yarn test
+        run: yarn test
       
       - name: Build
-        uses: yarn build
+        run: yarn build
        
