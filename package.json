@@ -9,6 +9,7 @@
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "yarn test --watch",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006 --no-dll",
     "build-storybook": "build-storybook -s ./public --no-dll"
   },
@@ -54,6 +55,7 @@
     "jest": "^26.4.2",
     "jest-styled-components": "^7.0.3",
     "lint-staged": "^10.4.0",
+    "plop": "^2.7.4",
     "prettier": "^2.1.2",
     "react-is": "^17.0.1",
     "typescript": "^4.0.2"
